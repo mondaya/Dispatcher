@@ -1,5 +1,66 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<h1>Default Blank Page~</h1>
-<p>Get to adding stuff</p>
+
+
+<h1>Dispatchers Page</h1>
+<div class="container center-block">
+    <div class="well ">
+        <div class="row">
+            <div class="col-sm-12 center-block1">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Load# <i class="fa fa-info-circle"></i></th>
+                            <th>
+                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>    
+                            </th>
+                            <th>Truck/Driver</th>
+                            <th>Ship Date/Time</th>
+                            <th>Delivery Date/Time</th>
+                            <th>Pick Up Address</th>
+                            <th>Delivery Address</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>                        
+                            <th>
+                                <button type="button" class="btn btn-default" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> 1234
+                                </button>
+                            </th>
+                            <th>
+                                <button type="button" class="btn btn-default" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> 
+                                </button>
+                            </th>
+                            <th>TR#100 Paul</th>
+                            <th>05/05/2017 at 11:00am</th>
+                            <th>05/06/2017 at 10:30am</th>
+                            <th>Kent, WA</th>
+                            <th>Auburn, WA</th>
+                            <th>
+                                <div class="form-group">
+                                    <select name="Status" class="form-control">
+                                        <option >Status</option>
+                                        <option value="1">Loading</option>
+                                        <option value="2">On Route</option>
+                                    </select>
+                                </div>
+                            </th>
+                            <th>
+                            <button type="button" class="btn btn-default" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-send" aria-hidden="true"></span> Send Load To Driver 
+                                </button> 
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="/addLoad"><button class="btn btn-info">New Load</button></a>
+
+            </div>
+        </div>
+    </div>
+</div>
