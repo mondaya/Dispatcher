@@ -1,0 +1,73 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<h1>Add load</h1>
+
+<div class="container">
+    <div class="well">
+        <div class="row center-block1">
+            <form class="form-horizontal ">
+
+                <div class="form-group">
+                    <label for="loadNumber" class="col-sm-2 control-label">Load#</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="loadNumber" placeholder="1235">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Tracktore" class="col-sm-2 control-label">Tractore/Driver</label>
+                    <div class="col-sm-10">
+                        <!--<input type="text" class="form-control" id="Tracktore" placeholder="Tractore/Driver">-->
+                        <select name="TruckNumber" class="form-control" id="TruckNumber">
+                            <option >Truck#/Driver</option>
+                            <option value="100">TR#100/Paul</option>
+                            <option value="200">TR#200/Monday</option>
+                            <option value="300">TR#300/Eli</option>
+                            <option value="400">TR#400/ILYAZ</option>
+                            <option value="500">TR#500/Vasya</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="pickUpDate" class="col-sm-2 control-label">Pick Up Date/Time</label>
+                    <div class="col-sm-10">
+                        <input name="pickUpDate" type="datetime-local" id="pickUpDate" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="dropOffDate" class="col-sm-2 control-label">Drop Off Date/Time</label>
+                    <div class="col-sm-10">
+                        <input name="dropOffDate" type="datetime-local" id="dropOffDate" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="puckUpAddress" class="col-sm-2 control-label">Pick Up Location</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="puckUpAddress" placeholder="Pick Up Address">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="dropOffAddress" class="col-sm-2 control-label">Drop Off Location</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="dropOffAddress" placeholder="Drop Off Address">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary">Add</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
