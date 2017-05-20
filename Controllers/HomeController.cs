@@ -14,5 +14,13 @@ namespace Dispatcher.Controllers
         {
             return View();
         }
+        
+        // GET: /Add Load/
+        [HttpGet]
+        [Route("addLoad")]
+        public IActionResult addLoad()
+        {
+            return View();
+        }
     }
 }
