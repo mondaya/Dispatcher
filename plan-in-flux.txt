@@ -1,0 +1,10 @@
+Things Done:
+1.  login and reg --  users and types
+2. load model  and other related models - source and destination , assignment, address. load types
+
+Next steps:
+1.  loads schema in c# - monday and Ilyaz
+2.  Front- end for load
+3.  MVC for load
+4.  Nofitcation between server and mobile app.
+
